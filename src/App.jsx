@@ -31,6 +31,14 @@ const App = () => {
     }
   },[gameWon])
 
+    const hold = (id) => {
+    setDice(prevDice => prevDice.map(die =>
+      die.id === id ?
+      {...die, isHeld: !die.isHeld} :
+      die
+    ))
+  }
+
   const diceElement = dice.map(dieObj => 
     <Die 
       key={dieObj.id} 
@@ -51,14 +59,6 @@ const App = () => {
    } else {
     setDice(generateAllNewDice())
    }
-  }
-
-  const hold = (id) => {
-    setDice(prevDice => prevDice.map(die =>
-      die.id === id ?
-      {...die, isHeld: !die.isHeld} :
-      die
-    ))
   }
 
   
