@@ -14,7 +14,7 @@ When all dice match, the game triggers **confetti**, announces the win via scree
 ## 📸 Preview
 
 
-![App Screenshot](public/screenshot.png)
+![App Screenshot](../tenzies//screenshot1.png) ![App Screenshot](../tenzies//screenshot2.png) ![App Screenshot](../tenzies//screenshot3.png)
 
 ---
 
