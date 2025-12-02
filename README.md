@@ -11,8 +11,13 @@ When all dice match, the game triggers **confetti**, announces the win via scree
 
 ---
 
-![App Screenshot](./screenshot1.png) ![App Screenshot](./screenshot2.png) ![App Screenshot](./screenshot3.png)
+## 📸 Preview
 
+<img src="./screenshot1.png" width="250" />
+<img src="./screenshot2.png" width="250" />
+<img src="./screenshot3.png" width="250" />
+
+---
 
 
 ## ✨ Features
